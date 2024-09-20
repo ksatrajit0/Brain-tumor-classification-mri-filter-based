@@ -46,9 +46,9 @@ To ensure consistent results, please use the following commands:
 ### Program files:
 
 The implementation files of this project can be found here:
--
--
--
+- [Brain Tumor MRI Jupyter Notebook](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/brain_tumorMRI_GitHubv1.ipynb)
+- [Crystal Clean DatasetJupyter Notebook](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/crystal_dataset_github.ipynb)
+- [Figshare Dataset Jupyter Notebook](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/figshare_dataset_github.ipynb)
 
 ## Credit(s) and Acknowledgement:
 
