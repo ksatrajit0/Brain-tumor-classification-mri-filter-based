@@ -16,4 +16,5 @@ def build_model(input_shape, num_classes):
         Dense(num_classes, activation='softmax')
     ])
     model.compile(optimizer=Adamax(learning_rate=0.001), loss='categorical_crossentropy', metrics=['accuracy'])
+    model.save_weights("/content/efficientnetb3_braintumor_weights.h5")
     return model
