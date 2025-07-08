@@ -43,7 +43,31 @@ To ensure consistent results, please use the following libraries:
 | tensorflow       | 2.8.0         | ![tensorflow version](https://img.shields.io/badge/tensorflow-2.8.0-orange?style=flat-square) |
 | pillow           | 9.1.0         | ![pillow version](https://img.shields.io/badge/pillow-9.1.0-lightyellow?style=flat-square)   |
 
+## Installation
+
+To install the required packages, run:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Program files:
+> Source Codes:
+- [Dependencies](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/requirements.txt)
+- [Configuration File](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/config.py)
+- [Data Preprocessing](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/preprocessing.py)
+- [Data Loader](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/data_loader.py)
+- [Deep Learning Model](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/model.py)
+- [Deep Learning Model Training](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/training.py)
+- [Training Utilities](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/utils.py)
+- [Deep Feature Extraction](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/feature_extraction.py)
+- [Filter-based Deep Feature Selection + SVM Classifier](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/svm_classification.py)
+- [Evaluation](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/src/evaluate.py)
+
+> Scripts:
+- [Mutual Information Analysis](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/scripts/mutual_info_analysis.py)
+- [ML Pipeline](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/scripts/ml_pipeline.py)
+- [Results Visualization](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/scripts/visualize_metrics.py)
 
 The implementation files of this project can be found here:
 - [Brain Tumor MRI Jupyter Notebook](https://github.com/ksatrajit0/Brain-tumor-classification-mri-filter-based/blob/main/brain_tumorMRI_GitHubv1.ipynb)
@@ -55,9 +79,9 @@ The implementation files of this project can be found here:
 Collaborator: **[Utathya Aich](https://in.linkedin.com/in/utathyaaich)**
 Supervisor: **[Dr. Pawan Kumar Singh](https://scholar.google.com/citations?user=LctgJHoAAAAJ&hl=en&oi=ao)**
 
-### Paper:
+### Paper: [Link](https://doi.org/10.1007/s42979-024-03392-1)
 > It'd be great if you could cite our manuscript if this code has been helpful to you:
-  *Kar, S., Aich, U. & Singh, P.K. Efficient Brain Tumor Classification Using Filter-Based Deep Feature Selection Methodology. SN COMPUT. SCI. 5, 1033 (2024). https://doi.org/10.1007/s42979-024-03392-1*
+  *Kar, S., Aich, U. & Singh, P.K. Efficient Brain Tumor Classification Using Filter-Based Deep Feature Selection Methodology. SN COMPUT. SCI. 5, 1033 (2024).*
 
 > Thank you very much!
 
