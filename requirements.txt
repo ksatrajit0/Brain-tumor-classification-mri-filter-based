@@ -1,0 +1,12 @@
+tensorflow
+opencv-python
+matplotlib
+seaborn
+pandas
+numpy
+scikit-learn
+tqdm
+imutils
+visualkeras
+graphviz
+pydot
